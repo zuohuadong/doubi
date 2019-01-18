@@ -386,9 +386,9 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 ``` bash
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && bash caddy_install.sh
  # 安装插件：
- bash caddy_install.sh xxx,xxx
-  # 例如同时安装 http.filemanager 和 http.webdav插件：
-  bash caddy_install.sh http.filemanager,http.webdav
+ bash caddy_install.sh intall xxx,xxx
+  # 例如同时安装 http.filebrowser 和 http.webdav插件：
+  bash caddy_install.sh install http.filebrowser,http.webdav
   # 插件和Caddy是集成在一起的(单个二进制文件)，多个插件必须同时安装。
 # 卸载命令：
 wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/caddy_install.sh && chmod +x caddy_install.sh && caddy_install.sh uninstall
